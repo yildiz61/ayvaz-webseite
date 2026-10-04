@@ -24,12 +24,9 @@ export const site = {
   station: 'TÜV NORD Station Penzberg',
   owner: 'Receb Ayvaz',
 
-  /**
-   * Ziel des Buttons „Termin vereinbaren“.
-   * Zeigt auf die offizielle Stationsseite mit der TÜV NORD Online-Terminbuchung.
-   * Wenn der direkte Buchungslink bekannt ist, hier einfach austauschen.
-   */
-  terminUrl: 'https://www.tuev-nord.de/de/stationen/penzberg-ingenieurbuero-ayvaz/',
+  /** Ziel aller „Termin vereinbaren“-Buttons: Online-Terminbuchung von TÜV NORD für diese Station */
+  terminUrl:
+    'https://www.tuev-nord.de/de/stationen/termin-vereinbaren/?stationId=612&cHash=7c4a7b7855bf95467d472f4a06503348',
   stationUrl: 'https://www.tuev-nord.de/de/stationen/penzberg-ingenieurbuero-ayvaz/',
 
   address: {
