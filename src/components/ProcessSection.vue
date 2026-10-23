@@ -10,22 +10,22 @@ const steps = [
   {
     icon: CalendarCheck,
     title: 'Termin buchen',
-    text: 'Online über das TÜV NORD Buchungssystem – oder ganz klassisch per Telefon.',
+    text: 'Online bei TÜV NORD oder telefonisch direkt bei uns.',
   },
   {
     icon: MapPin,
     title: 'Vorbeikommen',
-    text: `${site.address.street} in ${site.address.city}. Einfach auf die Prüfstraße rollen.`,
+    text: `${site.address.street} in ${site.address.city}. Den Fahrzeugschein nicht vergessen.`,
   },
   {
     icon: Search,
     title: 'Prüfung',
-    text: 'Gründlich und transparent. Fragen sind ausdrücklich erwünscht – wir erklären gern, was wir sehen.',
+    text: 'Fragen Sie ruhig nach. Wir erklären Ihnen, was wir gefunden haben und was es bedeutet.',
   },
   {
     icon: BadgeCheck,
     title: 'Plakette & Bericht',
-    text: 'Alles in Ordnung? Dann gibt’s die neue Plakette direkt aufs Kennzeichen und den Prüfbericht dazu.',
+    text: 'Ist alles in Ordnung, kommt die neue Plakette aufs Kennzeichen. Den Prüfbericht nehmen Sie gleich mit.',
   },
 ]
 
@@ -55,16 +55,15 @@ useScrollTicker(() => {
     <div class="container process__grid">
       <div class="process__head">
         <p v-reveal class="eyebrow">Ablauf</p>
-        <h2 v-reveal="80" class="section-title">So einfach geht’s.</h2>
+        <h2 v-reveal="80" class="section-title">So läuft die HU ab</h2>
         <p v-reveal="160" class="section-lead">
-          Keine Wartezimmer-Romantik, keine Fachchinesisch-Vorträge. Sie kommen, wir prüfen – und Sie fahren mit
-          gutem Gefühl wieder vom Hof.
+          Vier Schritte, dann haben Sie Ihre neue Plakette. Wenn etwas unklar ist, fragen Sie einfach.
         </p>
         <div v-reveal="240" class="process__bring">
           <FileText aria-hidden="true" />
           <div>
             <strong>Bitte mitbringen</strong>
-            <p>Zulassungsbescheinigung Teil I (Fahrzeugschein) – bei Änderungsabnahmen zusätzlich die Teilegutachten bzw. ABE.</p>
+            <p>Den Fahrzeugschein (Zulassungsbescheinigung Teil I). Für Änderungsabnahmen außerdem die Teilegutachten oder ABE der verbauten Teile.</p>
           </div>
         </div>
       </div>

@@ -29,42 +29,42 @@ const checks = [
   {
     id: 'licht',
     title: 'Beleuchtung & Elektrik',
-    text: 'Scheinwerfer, Blinker, Bremslichter und Hupe – sehen und gesehen werden.',
+    text: 'Funktionieren alle Lampen? Sind die Scheinwerfer richtig eingestellt? Auch die Hupe muss gehen.',
     x: 262,
     y: -76,
   },
   {
     id: 'reifen',
     title: 'Räder & Reifen',
-    text: 'Profiltiefe, Alter, Beschädigungen und die passende Dimension.',
+    text: 'Mindestens 1,6 mm Profil, keine Risse, und die Größe muss zu den Papieren passen.',
     x: -170,
     y: -40,
   },
   {
     id: 'bremsen',
     title: 'Bremsanlage',
-    text: 'Scheiben, Beläge, Leitungen – und die Bremswirkung auf dem Prüfstand.',
+    text: 'Wir sehen uns Scheiben, Beläge und Leitungen an. Wie gut die Bremse greift, misst der Prüfstand.',
     x: 175,
     y: -40,
   },
   {
     id: 'lenkung',
     title: 'Lenkung & Achsen',
-    text: 'Spiel in Gelenken und Lagern, Manschetten, Federn und Stoßdämpfer.',
+    text: 'Haben Gelenke und Lager zu viel Spiel? Sind Manschetten gerissen? Dazu kommen Federn und Stoßdämpfer.',
     x: 112,
     y: -10,
   },
   {
     id: 'unterboden',
     title: 'Unterboden & Rahmen',
-    text: 'Korrosion an tragenden Teilen, Leitungen und Halterungen – mit der Lampe ganz genau.',
+    text: 'Mit der Lampe suchen wir Rost an tragenden Teilen und prüfen Leitungen und Halterungen.',
     x: -30,
     y: -10,
   },
   {
     id: 'abgas',
     title: 'Abgasanlage & AU',
-    text: 'Dichtheit und Befestigung der Anlage sowie das Abgasverhalten Ihres Motors.',
+    text: 'Ist die Anlage dicht und sitzt sie fest? Bei der AU messen wir außerdem, was hinten rauskommt.',
     x: -238,
     y: -12,
   },
@@ -103,10 +103,10 @@ const nextHu = new Date().getFullYear() + 2
       <div class="container lift__grid">
         <div class="lift__copy">
           <p class="eyebrow">Hauptuntersuchung</p>
-          <h2 id="lift-title" class="section-title">Ab auf die Bühne.</h2>
+          <h2 id="lift-title" class="section-title">Ab auf die Bühne</h2>
           <p class="section-lead lift__lead">
-            Das Wichtigste sieht man von unten. Deshalb kommt bei uns jedes Fahrzeug auf die Hebebühne – scrollen Sie
-            weiter und schauen Sie unserem Prüfer über die Schulter.
+            Vieles, was bei der HU zählt, sieht man nur von unten. Deshalb fährt bei uns jedes Auto auf die
+            Hebebühne. Scrollen Sie weiter, dann sehen Sie, worauf wir achten.
           </p>
 
           <ol class="lift__list">
@@ -263,7 +263,7 @@ const nextHu = new Date().getFullYear() + 2
             <HuBadge :year="nextHu" class="lift__passed-badge" />
             <div>
               <strong>Bestanden!</strong>
-              <span>Plakette drauf – gute Fahrt.</span>
+              <span>Plakette drauf, gute Fahrt.</span>
             </div>
           </div>
 
@@ -272,8 +272,8 @@ const nextHu = new Date().getFullYear() + 2
             <template v-if="passed">
               <span class="lift__num is-done"><Check aria-hidden="true" /></span>
               <div>
-                <strong>Alle Prüfpunkte erledigt</strong>
-                <p>Über 150 Kriterien – für Ihre Sicherheit.</p>
+                <strong>Fertig geprüft</strong>
+                <p>In echt sind es über 150 Punkte. Hier sehen Sie nur die wichtigsten.</p>
               </div>
             </template>
             <template v-else-if="activeCheck">

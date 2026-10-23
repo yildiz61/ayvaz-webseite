@@ -10,37 +10,37 @@ const services = [
     icon: ClipboardCheck,
     tag: 'HU',
     title: 'Hauptuntersuchung',
-    text: 'Die gesetzliche Prüfung im Zwei-Jahres-Takt: Bremsen, Lenkung, Fahrwerk, Licht, Karosserie – über 150 sicherheits- und umweltrelevante Kriterien.',
+    text: 'Pflicht alle zwei Jahre, bei Neuwagen zum ersten Mal nach drei. Wir prüfen über 150 Punkte, darunter Bremsen, Lenkung, Licht und Rost.',
   },
   {
     icon: Wind,
     tag: 'AU',
     title: 'Abgasuntersuchung',
-    text: 'Fester Bestandteil der HU. Wir messen das Abgasverhalten von Benzinern und Dieseln und prüfen die Abgasanlage auf Dichtheit.',
+    text: 'Gehört zur HU dazu. Wir messen die Abgase von Benzin- und Dieselmotoren und schauen, ob die Abgasanlage dicht ist.',
   },
   {
     icon: Wrench,
     tag: 'Umbau',
     title: 'Änderungsabnahmen',
-    text: 'Neue Felgen, Tieferlegung, Anhängerkupplung oder andere An- und Umbauten? Wir nehmen Ihre Änderungen amtlich anerkannt ab – damit alles eingetragen werden kann.',
+    text: 'Neue Felgen, Tieferlegung oder Anhängerkupplung? Nach unserer Abnahme kann die Zulassungsstelle den Umbau in die Papiere eintragen.',
   },
   {
     icon: FileText,
     tag: 'Gutachten',
     title: 'Vollgutachten',
-    text: 'Wenn ein Fahrzeug komplett neu begutachtet werden muss – etwa nach einem Import oder bei fehlenden Unterlagen – erstellen wir das Vollgutachten.',
+    text: 'Für Fahrzeuge, die komplett neu begutachtet werden müssen. Das ist zum Beispiel nach einem Import nötig oder wenn Unterlagen fehlen.',
   },
   {
     icon: CarFront,
     tag: 'H-Kennzeichen',
     title: 'Oldtimer-Gutachten',
-    text: 'Ihr Klassiker hat das H-Kennzeichen verdient? Wir begutachten Originalität und Erhaltungszustand – mit viel Liebe zum Detail.',
+    text: 'Für das H-Kennzeichen muss ein Auto mindestens 30 Jahre alt sein und weitgehend im Originalzustand. Wir sehen uns beides genau an.',
   },
   {
     icon: RefreshCw,
     tag: 'Nachprüfung',
     title: 'Nachprüfung',
-    text: 'Mängel festgestellt? Kein Drama. Nach der Reparatur prüfen wir die beanstandeten Punkte nach – und Sie bekommen Ihre Plakette.',
+    text: 'Bei der HU wurden Mängel gefunden? Lassen Sie sie reparieren und kommen Sie innerhalb eines Monats wieder. Dann prüfen wir nur die beanstandeten Punkte.',
   },
 ]
 </script>
@@ -52,11 +52,11 @@ const services = [
       <div class="services__head">
         <div v-reveal>
           <p class="eyebrow">Leistungen</p>
-          <h2 class="section-title">Alles, was Ihr Fahrzeug für die Straße braucht.</h2>
+          <h2 class="section-title">Was wir prüfen</h2>
         </div>
         <p v-reveal="120" class="section-lead">
-          Als Partner von TÜV NORD prüfen wir nach denselben strengen Standards – aber mit dem persönlichen
-          Draht, den man nur vor Ort bekommt.
+          Wir sind eine Partnerstation von TÜV NORD. Geprüft wird nach deren Vorgaben, und Sie bekommen dieselbe
+          Plakette wie an jeder anderen TÜV-NORD-Station.
         </p>
       </div>
 

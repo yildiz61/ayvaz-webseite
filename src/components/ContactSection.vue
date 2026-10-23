@@ -23,7 +23,7 @@ const contacts = [
     <div class="container">
       <div class="contact__head">
         <p v-reveal class="eyebrow">Öffnungszeiten & Kontakt</p>
-        <h2 v-reveal="80" class="section-title">Wir sind für Sie da.</h2>
+        <h2 v-reveal="80" class="section-title">So erreichen Sie uns</h2>
       </div>
 
       <div class="contact__grid">
@@ -105,7 +105,7 @@ const contacts = [
               ></iframe>
               <div v-else class="map__consent">
                 <MapIcon aria-hidden="true" />
-                <p>Zum Schutz Ihrer Daten wird Google Maps erst nach Klick geladen.</p>
+                <p>Die Karte kommt von Google Maps und lädt erst nach einem Klick. Vorher geht nichts an Google.</p>
                 <button type="button" class="btn btn--blue" @click="mapLoaded = true">Karte laden</button>
               </div>
             </div>

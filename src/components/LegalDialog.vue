@@ -62,8 +62,8 @@ defineExpose({ open })
         <h3>Hosting & Server-Logfiles</h3>
         <p>
           Beim Aufruf dieser Website verarbeitet der Hosting-Anbieter technisch notwendige Daten (z. B. IP-Adresse,
-          Datum und Uhrzeit, aufgerufene Seite, Browser). Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO – unser
-          berechtigtes Interesse an einem sicheren und stabilen Betrieb.
+          Datum und Uhrzeit, aufgerufene Seite, Browser). Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO.
+          Unser berechtigtes Interesse ist, dass die Seite sicher und stabil läuft.
         </p>
         <h3>Keine Cookies, kein Tracking</h3>
         <p>
@@ -90,7 +90,7 @@ defineExpose({ open })
         <p>
           Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung,
           Datenübertragbarkeit und Widerspruch sowie das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu
-          beschweren – in Bayern beim Bayerischen Landesamt für Datenschutzaufsicht (BayLDA).
+          beschweren. In Bayern ist das das Bayerische Landesamt für Datenschutzaufsicht (BayLDA).
         </p>
       </template>
     </div>

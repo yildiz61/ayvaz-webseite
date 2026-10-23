@@ -54,12 +54,12 @@ const facts = [
       <div class="hero__copy">
         <p class="eyebrow hero__in" style="--d: 0">{{ site.station }}</p>
         <h1 class="hero__title hero__in" style="--d: 1">
-          Gründlich geprüft.<br />
-          <span class="hero__hl">Persönlich</span> betreut.
+          Ihr TÜV in<br />
+          <span class="hero__hl">Penzberg</span>
         </h1>
         <p class="hero__lead hero__in" style="--d: 2">
-          Hauptuntersuchung, Abgasuntersuchung, Änderungsabnahmen und Gutachten – beim
-          {{ site.name }}, mitten in Penzberg. Mit Sorgfalt, klaren Worten und einem Lächeln.
+          Wir machen die Hauptuntersuchung mit AU, nehmen Umbauten ab und schreiben Gutachten, auch für
+          Oldtimer. Einen Termin bekommen Sie online oder am Telefon.
         </p>
         <div class="hero__ctas hero__in" style="--d: 3">
           <TerminButton size="lg" />

@@ -25,7 +25,7 @@ export const photos = {
   buero: photo('buero', 1280, 960, 'Helles Büro der Station mit großer Fensterfront und Penzberg-Stadtplan an der Pinnwand'),
   unterboden: photo('unterboden', 1280, 1700, 'Prüfer leuchtet mit einer Taschenlampe den Unterboden eines Fahrzeugs auf der Hebebühne aus'),
   hebebuehne: photo('hebebuehne', 1280, 1700, 'Blick unter die Scherenhebebühne: Der Prüfer kontrolliert Fahrwerk und Achsen'),
-  weste: photo('weste', 1280, 1700, 'Prüfer in TÜV NORD Weste neben der glänzenden Fahrzeugflanke'),
+  weste: photo('weste', 1280, 1700, 'Prüfer in TÜV-NORD-Weste geht an einem schwarzen Auto auf der Hebebühne vorbei'),
   radkasten: photo('radkasten', 1280, 1707, 'Prüfer kontrolliert mit Lampe Radkasten und Reifen eines Mercedes'),
   felge: photo('felge', 1280, 1707, 'Prüfer in TÜV NORD Weste inspiziert Bremse und Felge'),
   nervennahrung: photo('nervennahrung', 1280, 1700, 'Kiste mit kleinen TÜV NORD Tütchen als Nervennahrung für die Wartezeit'),

@@ -7,18 +7,18 @@ import { vReveal } from '@/composables/reveal'
 import InstagramIcon from './ui/InstagramIcon.vue'
 
 const values = [
-  { icon: ShieldCheck, title: 'Amtlich anerkannt', text: 'Geprüft wird nach den Standards von TÜV NORD.' },
-  { icon: HeartHandshake, title: 'Persönlich & ehrlich', text: 'Feste Ansprechpartner statt Hotline-Schleife.' },
-  { icon: Wrench, title: 'Moderne Prüftechnik', text: 'Von der Scherenhebebühne bis zur Abgasmessung.' },
-  { icon: MapPin, title: 'Mitten in Penzberg', text: 'Gut erreichbar an der Bürgermeister-Rummer-Straße.' },
+  { icon: ShieldCheck, title: 'Partner von TÜV NORD', text: 'Gleiche Prüfung, gleiche Plakette wie an jeder TÜV-NORD-Station.' },
+  { icon: HeartHandshake, title: 'Feste Ansprechpartner', text: 'Wenn Sie anrufen, sprechen Sie direkt mit uns in der Station.' },
+  { icon: Wrench, title: 'Scherenhebebühne', text: 'Damit kommen wir gut an Achsen, Bremsen und Unterboden.' },
+  { icon: MapPin, title: 'In Penzberg', text: 'An der Bürgermeister-Rummer-Straße 43.' },
 ]
 
 const gallery: { photo: Photo; caption: string; focus?: string }[] = [
-  { photo: photos.unterboden, caption: 'Licht ins Dunkel: Kontrolle am Unterboden' },
-  { photo: photos.buero, caption: 'Hell & freundlich: unser Büro', focus: '78% 50%' },
-  { photo: photos.radkasten, caption: 'Radkasten & Reifen im Blick' },
+  { photo: photos.unterboden, caption: 'Kontrolle am Unterboden' },
+  { photo: photos.buero, caption: 'Unser Büro', focus: '78% 50%' },
+  { photo: photos.radkasten, caption: 'Blick in den Radkasten' },
   { photo: photos.hebebuehne, caption: 'Unter der Scherenhebebühne' },
-  { photo: photos.felge, caption: 'Bremse & Felge – genau hingeschaut' },
+  { photo: photos.felge, caption: 'Bremse und Felge' },
   { photo: photos.nervennahrung, caption: 'Nervennahrung für die Wartezeit' },
 ]
 
@@ -58,15 +58,14 @@ const step = (d: number) => (current.value = (current.value + d + gallery.length
 
         <div class="station__copy">
           <p v-reveal class="eyebrow">Die Station</p>
-          <h2 v-reveal="80" class="section-title">Ihr Prüfer um die Ecke.</h2>
+          <h2 v-reveal="80" class="section-title">Ihr Prüfer um die Ecke</h2>
           <p v-reveal="160" class="section-lead">
-            Hinter der {{ site.station }} steht das {{ site.name }} von {{ site.owner }}. Sie bekommen die Qualität
-            und Unabhängigkeit von TÜV NORD – kombiniert mit kurzen Wegen, festen Ansprechpartnern und ehrlicher
-            Beratung.
+            Die {{ site.station }} wird vom {{ site.name }} betrieben, Inhaber ist {{ site.owner }}. Die Station ist
+            klein, und Sie haben jedes Mal dieselben Leute vor sich.
           </p>
           <p v-reveal="200" class="section-lead">
-            Während Ihr Fahrzeug auf der Bühne ist, nehmen Sie gerne Platz. Und wenn etwas nicht passt, sagen wir
-            Ihnen klar, was zu tun ist – ohne erhobenen Zeigefinger.
+            Während Ihr Auto auf der Bühne ist, können Sie im Büro warten. Finden wir einen Mangel, sagen wir Ihnen
+            genau, was repariert werden muss.
           </p>
           <ul class="station__values">
             <li v-for="(v, i) in values" :key="v.title" v-reveal="i * 70">

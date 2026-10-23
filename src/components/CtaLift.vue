@@ -49,10 +49,9 @@ onBeforeUnmount(() => cancelAnimationFrame(frame))
     <div class="container cta__grid">
       <div class="cta__copy">
         <p v-reveal class="eyebrow">Termin vereinbaren</p>
-        <h2 id="cta-title" v-reveal="80" class="section-title">Bereit für die Bühne?</h2>
+        <h2 id="cta-title" v-reveal="80" class="section-title">Wann dürfen wir Ihr Auto anheben?</h2>
         <p v-reveal="160" class="section-lead">
-          Buchen Sie Ihren Termin bequem online über TÜV NORD – oder rufen Sie uns einfach an. Wir freuen uns auf Sie
-          und Ihr Fahrzeug.
+          Den Termin buchen Sie online bei TÜV NORD. Sie telefonieren lieber? Dann rufen Sie uns an.
         </p>
         <a v-reveal="220" class="cta__phone" :href="site.phone.href">
           <Phone aria-hidden="true" /> {{ site.phone.display }}
